@@ -1,0 +1,29 @@
+@import "./fonts.css";
+
+body{
+  font-family: 'Open Sans';
+  font-style: normal;
+  color: #000000;
+}
+.clearfix{
+  clear: both;
+}
+.background {
+  position: relative;
+}
+.background-image{
+  position: absolute;
+  max-height: 1480px;
+  top: 108px;
+  z-index: -1;
+}
+.left{
+  left: 0;
+}
+.right{
+  right: 0;
+}
+.container{
+  max-width: 62%;
+  margin: 0 auto;
+}

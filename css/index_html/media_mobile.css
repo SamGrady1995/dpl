@@ -1,0 +1,112 @@
+@media (max-width: 1024px){
+  .container{
+    max-width: 86%;
+  }
+  .background{
+    display: none;
+  }
+  .header-sale{
+    margin: 70px 0;
+    padding: 67px 0;
+  }
+  .header-sale-container{
+    max-width: 80%;
+  }
+  .header-sale-heading{
+    font-size: 30px;
+    line-height: 41px;
+  }
+  .header-sale-button{
+    padding: 20px 76px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .contant-cards-block{
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-gap: 36px;
+  }
+  .contant-cards-block-item-info-filling{
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+  }
+  .contant-cards-block-item-promo_code-button{
+    margin: 20px auto;
+  }
+  .footer-block{
+    display: flex;
+    align-items: center;
+  }
+  .footer-block-social{
+    display: block;
+  }
+  .footer-block-contact-desc{
+    display: none;
+  }
+  .footer-block-contact-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-gap: 14px;
+  }
+}
+@media (max-width: 425px){
+  .container{
+    max-width: 96%;
+  }
+  .header-sale-container{
+    max-width: 92%;
+  }
+  .header-sale-filling{
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .contant{
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .contant-heading{
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .contant-cards-block-item-preview{
+    max-width: 100%;
+  }
+  .contant-cards-block-item-info-filling{
+    width: 70%;
+    margin: 20px auto;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+  }
+  .contant-cards-block-item-promo_code-button{
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .contant-button_to_catalog{
+    font-size: 18px;
+  }
+  .advantage{
+    display: none;
+  }
+  .advantage-mobile{
+    display: block;
+  }
+  .footer-block-logo-img{
+    max-width: 70px;
+  }
+  .footer-block-contact img{
+    max-width: 22px;
+  }
+  .footer-block-contact img{
+    max-width: 22px;
+  }
+  .footer-social_networks-items img{
+    max-width: 30px;
+  }
+}

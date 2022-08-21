@@ -1,0 +1,73 @@
+.revers{
+  flex-direction: row-reverse;
+}
+.contant-heading{
+  margin-top: 168px;
+  font-size: 46px;
+  line-height: 63px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contant-cards-block{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  grid-gap: 86px;
+  justify-content: space-between;
+}
+.contant-cards-block-item-preview{
+  max-width: 90%;
+}
+.contant-cards-block-item-info-heading{
+  font-size: 32px;
+  line-height: 44px;
+  color: #313131;
+  text-transform: uppercase;
+}
+.contant-cards-block-item-info-filling{
+  max-width: 80%;
+  margin: 20px 0;
+  font-size: 22px;
+  color: #414141;
+}
+.contant-cards-block-item-info-filling-img{
+  width: 30px;
+  float: left;
+  margin-right: 10px;
+}
+.contant-cards-block-item-promo_code{
+  margin-top: 84px;
+}
+.contant-cards-block-item-promo_code-heading{
+  font-size: 22px;
+  line-height: 30px;
+}
+.contant-cards-block-item-promo_code-code{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+}
+.contant-cards-block-item-promo_code-button{
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+  max-width: 80%;
+  padding: 20px 0;
+  font-size: 26px;
+  line-height: 35px;
+  border: 3px solid #000000;
+  text-transform: uppercase;
+  color: #313131;
+}
+.contant-button_to_catalog{
+  text-align: center;
+  display: block;
+  max-width: 420px;
+  padding: 20px 0;
+  margin: 86px auto;
+  font-size: 26px;
+  line-height: 35px;
+  border: 3px solid #000000;
+  text-transform: uppercase;
+  color: #313131;
+}

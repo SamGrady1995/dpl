@@ -1,0 +1,29 @@
+.advantage-block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.advantage-block-item{
+  max-width: 30%;
+  display: flex;
+  align-items: center;
+  grid-gap: 14px;
+  font-size: 14px;
+  color: #414141;
+}
+.advantage-block-item img{
+  min-width: 30px;
+}
+.advantage-mobile{
+  display: none;
+}
+.advantage-mobile .advantage-block{
+  margin-top: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-gap: 20px;
+}
+.advantage-mobile .advantage-block-item{
+    max-width: 100%;
+  }
